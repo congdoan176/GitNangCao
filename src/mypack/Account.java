@@ -43,6 +43,11 @@ public class Account {
         this.name = name;
         this.phone = phone;
     }
+
+    @Override
+    public String toString() {
+        return "Account{" + "id=" + id + ", name=" + name + ", phone=" + phone + '}';
+    }
     
     
 }
