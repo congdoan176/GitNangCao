@@ -48,6 +48,11 @@ public class Account {
     public String toString() {
         return "Account{" + "id=" + id + ", name=" + name + ", phone=" + phone + '}';
     }
+
+    public Account(long id, String name) {
+        this.id = id;
+        this.name = name;
+    }
     
     
 }
